@@ -1,0 +1,29 @@
+{
+  "name": "rollup-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zrtch/rollup-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zrtch/rollup-project/issues"
+  },
+  "homepage": "https://github.com/zrtch/rollup-project#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "lodash": "^4.17.21",
+    "rollup": "^4.17.2",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
